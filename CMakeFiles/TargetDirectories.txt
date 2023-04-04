@@ -1,3 +1,3 @@
-/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles/rebuild_cache.dir
-/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles/edit_cache.dir
-/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles/app.dir
+/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles/rebuild_cache.dir
+/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles/edit_cache.dir
+/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles/app.dir

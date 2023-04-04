@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rflower/Documents/dev/DEV/c/conway/main.cpp" "/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles/app.dir/main.cpp.o"
-  "/home/rflower/Documents/dev/DEV/c/conway/src/util.cpp" "/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles/app.dir/src/util.cpp.o"
+  "/home/rflower/Documents/dev/conway-game-of-life/main.cpp" "/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles/app.dir/main.cpp.o"
+  "/home/rflower/Documents/dev/conway-game-of-life/src/util.cpp" "/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles/app.dir/src/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

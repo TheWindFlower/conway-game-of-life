@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL2 -I/home/rflower/Documents/dev/DEV/c/conway/include
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/rflower/Documents/dev/conway-game-of-life/include
 
 CXX_FLAGS = 
 

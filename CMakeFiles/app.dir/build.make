@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rflower/Documents/dev/DEV/c/conway
+CMAKE_SOURCE_DIR = /home/rflower/Documents/dev/conway-game-of-life
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rflower/Documents/dev/DEV/c/conway
+CMAKE_BINARY_DIR = /home/rflower/Documents/dev/conway-game-of-life
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/app.dir/flags.make
 
 CMakeFiles/app.dir/src/util.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/util.cpp.o: src/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/util.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/util.cpp.o -c /home/rflower/Documents/dev/DEV/c/conway/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/util.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/util.cpp.o -c /home/rflower/Documents/dev/conway-game-of-life/src/util.cpp
 
 CMakeFiles/app.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rflower/Documents/dev/DEV/c/conway/src/util.cpp > CMakeFiles/app.dir/src/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rflower/Documents/dev/conway-game-of-life/src/util.cpp > CMakeFiles/app.dir/src/util.cpp.i
 
 CMakeFiles/app.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rflower/Documents/dev/DEV/c/conway/src/util.cpp -o CMakeFiles/app.dir/src/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rflower/Documents/dev/conway-game-of-life/src/util.cpp -o CMakeFiles/app.dir/src/util.cpp.s
 
 CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/main.cpp.o -c /home/rflower/Documents/dev/DEV/c/conway/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/main.cpp.o -c /home/rflower/Documents/dev/conway-game-of-life/main.cpp
 
 CMakeFiles/app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rflower/Documents/dev/DEV/c/conway/main.cpp > CMakeFiles/app.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rflower/Documents/dev/conway-game-of-life/main.cpp > CMakeFiles/app.dir/main.cpp.i
 
 CMakeFiles/app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rflower/Documents/dev/DEV/c/conway/main.cpp -o CMakeFiles/app.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rflower/Documents/dev/conway-game-of-life/main.cpp -o CMakeFiles/app.dir/main.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
@@ -114,7 +114,7 @@ app: CMakeFiles/app.dir/src/util.cpp.o
 app: CMakeFiles/app.dir/main.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rflower/Documents/dev/DEV/c/conway/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rflower/Documents/dev/conway-game-of-life/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/rflower/Documents/dev/DEV/c/conway && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rflower/Documents/dev/DEV/c/conway /home/rflower/Documents/dev/DEV/c/conway /home/rflower/Documents/dev/DEV/c/conway /home/rflower/Documents/dev/DEV/c/conway /home/rflower/Documents/dev/DEV/c/conway/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rflower/Documents/dev/conway-game-of-life && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rflower/Documents/dev/conway-game-of-life /home/rflower/Documents/dev/conway-game-of-life /home/rflower/Documents/dev/conway-game-of-life /home/rflower/Documents/dev/conway-game-of-life /home/rflower/Documents/dev/conway-game-of-life/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/rflower/Documents/dev/DEV/c/conway
+# Install script for directory: /home/rflower/Documents/dev/conway-game-of-life
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rflower/Documents/dev/DEV/c/conway/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rflower/Documents/dev/conway-game-of-life/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

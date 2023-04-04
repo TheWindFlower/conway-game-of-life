@@ -86,15 +86,6 @@ public:
         bool quit = false;
         SDL_Event event;
 
-        // Create a promise object
-        std::promise<vector<tuple<int, int, bool>>> resultPromise;
-
-        // Get a future object from the promise
-        std::future<vector<tuple<int, int, bool>>> resultFuture = resultPromise.get_future();
-
-        // Create a thread and pass the promise object to the function
-        std::thread myThread(next_generation, std::ref(resultPromise), cells_status, ROWS, COLUMNS);
-
         // main loop
         while (!quit)
         {
@@ -120,10 +111,7 @@ public:
 
             // calc of the next game status
             auto start_calc = std::chrono::high_resolution_clock::now();
-            myThread = std::thread(next_generation, std::ref(resultPromise), cells_status, ROWS, COLUMNS);
-            myThread.join();
-            cells_status = resultFuture.get();
-            // cells_status = next_generation(cells_status, ROWS, COLUMNS);
+            cells_status = next_generation(cells_status, ROWS, COLUMNS);
             auto end_calc = std::chrono::high_resolution_clock::now();
             auto duration_calc = std::chrono::duration_cast<std::chrono::microseconds>(end_calc - start_calc);
             std::cout << "Calc execution time: " << duration_calc.count() << " microseconds." << std::endl;

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/rflower/Documents/dev/DEV/c/conway/include/util.hpp
+/home/rflower/Documents/dev/conway-game-of-life/include/util.hpp
 vector
 -
 tuple
@@ -14,7 +14,7 @@ tuple
 string
 -
 
-/home/rflower/Documents/dev/DEV/c/conway/main.cpp
+/home/rflower/Documents/dev/conway-game-of-life/main.cpp
 iostream
 -
 SDL2/SDL.h
@@ -34,25 +34,5 @@ sstream
 future
 -
 include/util.hpp
-/home/rflower/Documents/dev/DEV/c/conway/include/util.hpp
-
-/home/rflower/Documents/dev/DEV/c/conway/src/util.cpp
-vector
--
-tuple
--
-string
--
-fstream
--
-iostream
--
-cstdlib
--
-ctime
--
-future
--
-../include/util.hpp
-/home/rflower/Documents/dev/DEV/c/conway/include/util.hpp
+/home/rflower/Documents/dev/conway-game-of-life/include/util.hpp
 

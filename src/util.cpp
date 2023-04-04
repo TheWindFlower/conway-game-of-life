@@ -11,7 +11,7 @@
 using std::tuple;
 using std::vector;
 
-void next_generation(std::promise<vector<tuple<int, int, bool>>> &resultPromise, const vector<tuple<int, int, bool>> &current_status, int rows, int columns)
+std::vector<std::tuple<int, int, bool>> next_generation(const vector<tuple<int, int, bool>> &current_status, int rows, int columns)
 {
 
     vector<tuple<int, int, bool>> next_status;
@@ -68,7 +68,7 @@ void next_generation(std::promise<vector<tuple<int, int, bool>>> &resultPromise,
         }
     }
 
-    resultPromise.set_value(next_status);
+    return (next_status);
 }
 
 vector<tuple<int, int, bool>> start(std::string filename, int rows, int columns)

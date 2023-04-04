@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/SDL_GUI_Grid_Example.dir/main.cpp.o -o SDL_GUI_Grid_Example  -lSDL2 
